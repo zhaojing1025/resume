@@ -31,7 +31,7 @@ html, body {
 /*slide1*/
 .slide1 span:nth-child(2){
     top: 1.3rem;
-    left: .96rem;
+    left: .93rem;
     font-size: .18rem;
     font-family: Î¢ÈíÑÅºÚ;
     line-height: .16rem;
@@ -41,7 +41,7 @@ html, body {
     font-size: .21rem;
     font-family: Î¢ÈíÑÅºÚ;
     top: 1.6rem;
-    left: 1.03rem;
+    left: 1.05rem;
     color: #878181;
     font-weight: bold;
 }
