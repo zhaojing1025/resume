@@ -29,19 +29,25 @@ html, body {
     opacity:1;
 }
 /*slide1*/
+.slide1 span:nth-child(2),.slide1 h1:nth-child(3),.slide1 img:nth-child(4),.slide1 span:nth-child(5),.slide1 div:nth-child(6){
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
 .slide1 span:nth-child(2){
+    width: 1.35rem;
+    height: .16rem;
     top: 1.3rem;
-    left: .85rem;
     font-size: .18rem;
     font-family: Î¢ÈíÑÅºÚ;
     line-height: .16rem;
     color: #878181;
 }
 .slide1 h1:nth-child(3){
+    width: 1.18rem;
     font-size: .21rem;
     font-family: Î¢ÈíÑÅºÚ;
     top: 1.6rem;
-    left: 1.1rem;
     color: #878181;
     font-weight: bold;
 }
@@ -49,12 +55,11 @@ html, body {
     width: 2rem;
     height: 0.03rem;
     top: 1.9rem;
-    left: .64rem;
 }
 .slide1 span:nth-child(5){
+    width: 1.08rem;
     font-size: .12rem;
     top: 2rem;
-    left: 1.09rem;
     color: #878181;
 }
 .slide1 div:nth-child(6){
@@ -62,7 +67,6 @@ html, body {
     height: .4rem;
     background: url("../images/under.png") no-repeat;
     background-size: 100% 100%;
-    left: .53rem;
     bottom: 1.3rem;
 }
 .slide1 div:nth-child(6)>img{
@@ -122,7 +126,9 @@ html, body {
     width: 1.1rem;
     height: 1.1rem;
     top: .6rem;
-    left: 1.05rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
@@ -240,6 +246,11 @@ html, body {
     font-family: 'FZY1JW.TTF';
     color: #676767;
 }
+.slide3 img:nth-child(4),.slide3 img:nth-child(5),.slide3 span:nth-child(6),.slide3 span:nth-child(7),.slide3 span:nth-child(8),.slide3 span:nth-child(9),.slide3 span:nth-child(10),.slide3 span:nth-child(11){
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 .slide3 img:nth-child(2){
     left: 4.77rem;
     top: 5.3rem;
@@ -251,48 +262,46 @@ html, body {
 .slide3 img:nth-child(4){
     width: 1.26rem;
     height: 0.28rem;
-    right: .95rem;
     bottom: .55rem;
 }
 .slide3 img:nth-child(5){
     width: 1.1rem;
     height: 1.1rem;
-    left: 1.05rem;
     top: 1rem;
     border-radius: 50%;
     overflow: hidden;
 }
 .slide3 span:nth-child(6){
+    width: 1.65rem;
     line-height: inherit;
     font-size: .3rem;
     color: #010101;
     top: .5rem;
-    left: .8rem;
 }
 .slide3 span:nth-child(7){
+    width: .675rem;
     font-size: .27rem;
     top: 2.3rem;
-    left: 1.3rem;
 }
 .slide3 span:nth-child(8){
+    width: 1.09rem;
     font-size: .22rem;
     top: 2.7rem;
-    left: 1.08rem;
 }
 .slide3 span:nth-child(9){
+    width: 1.36rem;
     font-size: .17rem;
     top: 3.05rem;
-    left: .97rem;
 }
 .slide3 span:nth-child(10){
+    width: .93rem;
     font-size: .17rem;
     top: 3.35rem;
-    left: 1.18rem;
 }
 .slide3 span:nth-child(11){
+    width: 1.45rem;
     font-size: .17rem;
     top: 3.65rem;
-    left: .9rem;
 }
 #page3 img,#page3 span{
     opacity: 1;
@@ -594,24 +603,28 @@ html, body {
     -webkit-animation: fadeInUp 2s 3.5s both;
 }
 /*slide6*/
+.slide6 span:nth-child(3),.slide6 span:nth-child(2){
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 .slide6 div:nth-child(2){
     width: 1.07rem;
     height: .35rem;
     border: .01rem dashed #878181;
-    top: .5rem;
-    left: 1.15rem;
+    top: .35rem;
 }
 .slide6 div:nth-child(2) h3{
     font-size: .17rem;
     color: #878181;
     line-height: .35rem;
-    left: .12rem;
+    left: .11rem;
 }
 .slide6 span:nth-child(3){
+    width: .483rem;
     font-size: .13rem;
     color: #878181;
-    top: .9rem;
-    left: 1.45rem;
+    top: .75rem;
 }
 .slide6 div:nth-child(4),.slide6 div:nth-child(5),.slide6 div:nth-child(6),.slide6 div:nth-child(7),.slide6 div:nth-child(8),.slide6 div:nth-child(9){
     width: .6rem;
@@ -785,10 +798,14 @@ html, body {
     background: url("../images/background1.jpg") no-repeat;
     background-size: cover;
 }
+.slide8 img:nth-child(2),.slide8 img:nth-child(3){
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 .slide8 img:nth-child(2){
     width: .74rem;
     height: .75rem;
-    left: 1.3rem;
     top: 1.25rem;
     border-radius: 50%;
     overflow: hidden;
@@ -797,7 +814,6 @@ html, body {
     width: 2.46rem;
     height: .47rem;
     top: 2.25rem;
-    left: 0.35rem;
 }
 .slide8 img:nth-child(4){
     width: .52rem;
