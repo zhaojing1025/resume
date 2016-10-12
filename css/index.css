@@ -35,9 +35,10 @@ html, body {
     margin: 0 auto;
 }
 .slide1 span:nth-child(2){
-    width: 1.35rem;
+    /*width: 1.35rem;*/
     height: .18rem;
     top: 1.3rem;
+    left: .95rem;
     font-size: .18rem;
     font-family: Î¢ÈíÑÅºÚ;
     line-height: .18rem;
@@ -289,8 +290,9 @@ html, body {
     top: 2.7rem;
 }
 .slide3 span:nth-child(9){
-    width: 1.45rem;
+    /*width: 1.45rem;*/
     font-size: .17rem;
+    left: .93rem;
     top: 3.05rem;
 }
 .slide3 span:nth-child(10){
@@ -621,9 +623,10 @@ html, body {
     left: .11rem;
 }
 .slide6 span:nth-child(3){
-    width: .49rem;
+    /*width: .49rem;*/
     font-size: .13rem;
     color: #878181;
+    left: 1.35rem;
     top: .75rem;
 }
 .slide6 div:nth-child(4),.slide6 div:nth-child(5),.slide6 div:nth-child(6),.slide6 div:nth-child(7),.slide6 div:nth-child(8),.slide6 div:nth-child(9){
