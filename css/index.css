@@ -45,10 +45,11 @@ html, body {
     color: #878181;
 }
 .slide1 h1:nth-child(3){
-    width: 1.172rem;
+    /*width: 1.172rem;*/
     font-size: .21rem;
     font-family: Î¢ÈíÑÅºÚ;
     top: 1.6rem;
+    left: 1rem;
     color: #878181;
     font-weight: bold;
 }
@@ -273,11 +274,12 @@ html, body {
     overflow: hidden;
 }
 .slide3 span:nth-child(6){
-    width: 1.75rem;
+    /*width: 1.75rem;*/
     line-height: inherit;
     font-size: .3rem;
     color: #010101;
     top: .5rem;
+    left: .78rem;
 }
 .slide3 span:nth-child(7){
     width: .7rem;
@@ -292,7 +294,7 @@ html, body {
 .slide3 span:nth-child(9){
     /*width: 1.45rem;*/
     font-size: .17rem;
-    left: .93rem;
+    left: .95rem;
     top: 3.05rem;
 }
 .slide3 span:nth-child(10){
