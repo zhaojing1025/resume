@@ -35,19 +35,17 @@ html, body {
     margin: 0 auto;
 }
 .slide1 span:nth-child(2){
-    width: 1.35rem;
     height: .18rem;
     top: 1.3rem;
     left: .94rem;
     font-size: .18rem;
-    font-family: ΢���ź�;
+    font-family: Î¢ÈíÑÅºÚ;
     line-height: .18rem;
     color: #878181;
 }
 .slide1 h1:nth-child(3){
-    width: 1.172rem;
     font-size: .21rem;
-    font-family: ΢���ź�;
+    font-family: Î¢ÈíÑÅºÚ;
     top: 1.6rem;
     left: 1.03rem;
     color: #878181;
@@ -85,7 +83,7 @@ html, body {
 .slide1 div:nth-child(6)>span{
     font-size: .13rem;
     color: #000;
-    font-family: ΢���ź�;
+    font-family: Î¢ÈíÑÅºÚ;
     left: .65rem;
     line-height: .4rem;
     color: #878181;
